@@ -101,6 +101,16 @@
               </div>
            </div>
        </section>
+       <br><br>
+
+
+       <div>
+          <footer class="blockquote-footer " >
+              Derechos Reservados &copy; 2021<br>
+              Diseñado por:--------<br>
+              Email:
+          </footer>
+       </div>
     
 
 

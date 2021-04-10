@@ -59,7 +59,7 @@
         </div>
      </div>
    </section>
-   <section class=" main container-sm">
+   <section class=" container-sm">
      <div class="row">
        <section class=" posts col-md-9">
           <article class="post clearfix"></article>

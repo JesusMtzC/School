@@ -57,7 +57,7 @@
                </ul>
              </div>
            </div>
-       </section>
+        </section>
        
        <section class=" main container-xxl">
         <div class="row">
@@ -85,43 +85,72 @@
               </nav>
            </section>
     
-            <section class="main container-sm posts col-md-9 ">
-              <div class="row">
-                <section >
-                  <article class=" clearfix">
-                    <h2 class="post-title"> Datos Esolares</h2>
-                    <h3> Este espacio Contiene información referente a la escuela <br> la cual puedes interactuar u obtner datos importantes </h3>
-                    <a class="float-left"><img src="./img/prepa-4.jpg" width="" height=""></a><br>
-                    <h3 class="post-titulo"> Conocenos</h3>
-                    <p class=" conten text-wrap text-break">La Dirección General del Bachillerato presenta el Documento Base que sustenta la operación
-                      de su plan de estudios en el contexto de las Reformas a la Educación Media Superior, desde
-                      el surgimiento de la Reforma Integral de la Educación Media Superior (RIEMS) hasta el Modelo
-                      Educativo para la Educación Obligatoria.
-                      En las siguientes páginas se encuentran los fundamentos metodológicos que guían la
-                      conformación de cada uno de los componentes y enfoques del plan y programas de estudio
-                      acordados en reuniones nacionales ejecutivas y colegiadas en las que, la participación
-                      comprometida tanto de directivos como de docentes pertenecientes a los diferentes
-                      subsistemas del Bachillerato General, es la constante que caracteriza este trabajo orientado a
-                      la búsqueda permanente de la calidad de la educación centrada en el aprendizaje.
-                      El alcance de este documento es el de difundir en los Centros de Estudio de Bachillerato y las
-                      Preparatorias Federales “Lázaro Cárdenas”, así como en los subsistemas coordinados
-                      académicamente por la Dirección General del Bachillerato las orientaciones y lineamientos
-                      psicopedagógicos que articulan la propuesta educativa del Bachillerato General Federal.</p>
-                </article>
-                </section>
+            <section class="container">
+              <div class="">
+                  <section class="">
+                        <div>
+                        <article class="main2">
+                          <h2 class="post-title"> Datos Esolares</h2>
+                          <h3> ¡Informate! <br> Conoce más sobre nosotros y unete </h3>
+                          <a class="float-left"><img src="./img/prepa-4.jpg" width="500" height=""></a><br>
+                          <h3 class="post-titulo"> Conocenos</h3>
+                          <p class=" conten text-wrap text-break">La Dirección General del Bachillerato presenta el Documento Base que sustenta la operación
+                            de su plan de estudios en el contexto de las Reformas a la Educación Media Superior, desde
+                            el surgimiento de la Reforma Integral de la Educación Media Superior (RIEMS) hasta el Modelo
+                            Educativo para la Educación Obligatoria.
+                            En las siguientes páginas se encuentran los fundamentos metodológicos que guían la
+                            conformación de cada uno de los componentes y enfoques del plan y programas de estudio
+                            acordados en reuniones nacionales ejecutivas y colegiadas en las que, la participación
+                            comprometida tanto de directivos como de docentes pertenecientes a los diferentes
+                            subsistemas del Bachillerato General, es la constante que caracteriza este trabajo orientado a
+                            la búsqueda permanente de la calidad de la educación centrada en el aprendizaje.
+                            El alcance de este documento es el de difundir en los Centros de Estudio de Bachillerato y las
+                            Preparatorias Federales “Lázaro Cárdenas”, así como en los subsistemas coordinados
+                            académicamente por la Dirección General del Bachillerato las orientaciones y lineamientos
+                            psicopedagógicos que articulan la propuesta educativa del Bachillerato General Federal.</p>
+                        </article>
+                        </div>
+                    </section>
+
+
+                         <aside class=" float-end">
+                           <h2>Quedate en Casa</h2>
+                           <ul>
+                              <section>
+                                <a><img src="./img/info_1.jpg" width="400" alt=""></a>
+                              </section><br>
+                              <section>
+                                <a><img src="./img/info_2.jpg" width="400" alt=""></a>
+                              </section><br>
+                              <section>
+                                <a><img src="./img/infog_3.jpg" width="400" alt=""></a>
+                              </section>
+                            </ul>
+                         </aside>
                  
               </div>
+
+            
+
                       
 
             </section>
-        </div>
-    </section>
+            </div>
+          </section>
+
  
 
 
 
 
-
+             <div>
+                <footer class="blockquote-footer " >
+                    Derechos Reservados &copy; 2021<br>
+                    Diseñado por:--------<br>
+                    Email:
+                </footer>
+            </div>
+          
        
     
 

@@ -82,37 +82,38 @@
           </nav>
        </section>
             
-        
-       <section>
-        <div class="card-group text-center position-absolute top-50 start-25">
-          <div class="card border-primary mb-3" style="max-width: 18rem;">
-            <div class="card-header">CONTACTANOS</div>
-            <div class="card-body text-primary">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card border-primary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body text-primary">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div>
-       </section>
-
+        <div class="d-flex p-4 bd-highlight justify-content-evenly">
+            <section>
+                <div class="card-group text-center ">
+                    <div class="card border-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">CONTACTANOS</div>
+                        <div class="card-body text-primary">
+                        <h5 class="card-title">Primary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body text-primary">
+                    <h5 class="card-title">Primary card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+       </div>
 
 
 
     
-       <div>
-    <footer class="blockquote-footer " >
-        Derechos Reservados &copy; 2021<br>
-        Diseñado por:--------<br>
-        Email:
-    </footer>
-    </div>
+       
+        <footer class="blockquote-footer " >
+            Derechos Reservados &copy; 2021<br>
+            Diseñado por:--------<br>
+            Email:
+        </footer>
+        
 
 
        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>

@@ -17,10 +17,14 @@
 /* editar post*/
 
 .main{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 960px;
 
 }
+.main2{
+    width: 600px;
+
+}
+
 .post{
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -87,4 +91,11 @@ footer{
     border-radius: 0 0 20xp 20px;
     color: rgb(14, 13, 13);
     text-align: center;
+}
+
+.aside{
+    display: inline-block;
+    width: 300px;
+    min-height: 400px;
+    float: right;
 }
