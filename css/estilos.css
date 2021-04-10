@@ -1,0 +1,90 @@
+.jumbotron {
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    background-color: rgb(7, 232, 248);
+    border-radius: .3rem;  
+  }
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 70vh;
+    width: 60vh;
+}
+
+/* editar post*/
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.post{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+.post-title{
+    color: rgb(12, 129, 150);
+
+}
+
+.post-titulo{
+    margin-top: 12px;
+}
+
+.contener{
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 14rem);
+  padding-left: var(--bs-gutter-x, 14rem);
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(224, 220, 220, 0.993);
+}
+
+.post-contenido{
+    padding-right: var(--bs-gutter-x,15rem);
+    margin-right: 100px;
+}
+
+.postt{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #999;
+    margin-left: 278px;
+}
+
+.anun{
+    width: 400px;
+    background: #24303c;
+    padding: 50px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.lab{
+    width: 200px ;
+    height: 200xp;
+    margin-top: 20xp;
+}
+
+.start-25{
+    left: 28%;
+    height: 80%;
+}
+
+
+footer{
+    
+    background: rgb(230, 227, 227);
+    margin: auto;
+    border-radius: 0 0 20xp 20px;
+    color: rgb(14, 13, 13);
+    text-align: center;
+}
