@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
@@ -19,23 +19,23 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-3 mb-lg-0 ">
               <li class="nav-item ">
-                <a class="nav-link " aria-current="page" href="../BASES/index.php" >Inicio</a>
+                <a class="nav-link " aria-current="page" href="index.php" >Inicio</a>
                 </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../BASES/academia.php">Academia</a>
+                    <a class="nav-link" href="academia.php">Academia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../BASES/Escolar.php">Academia</a>
+                    <a class="nav-link" href="Escolar.php">Academia</a>
                   </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Plantel
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="../BASES/directivos.php">Directivos</a></li>
-                    <li><a class="dropdown-item" href="../BASES/contactos.php">Contactos</a></li>
-                    <li><a class="dropdown-item" href="../BASES/anuncios.php">Anuncios</a></li>
-                    <li><a class="dropdown-item" href="../BASES/Calificaciones.php">Calificaciones</a></li>
+                    <li><a class="dropdown-item" href="directivos.php">Directivos</a></li>
+                    <li><a class="dropdown-item" href="contactos.php">Contactos</a></li>
+                    <li><a class="dropdown-item" href="anuncios.php">Anuncios</a></li>
+                    <li><a class="dropdown-item" href="Calificaciones.php">Calificaciones</a></li>
                   </ul>
                 </li>
               </ul>
@@ -50,10 +50,10 @@
               <div>
                 <ul class="navbar-nav ms-auto list-group-horizontal ">
                   <li class=><a href="https://es-la.facebook.com/"><img  src="./img/facebook.png" height="32px" width="32px" alt=""></a></li>
-                  <li class=><a href="#"><img src="./img/yout.png" height="32px" width="32px" alt=""></a></li>
-                  <li class=><a href="#"><img src="./img/insta.png" height="32px" width="32px" alt=""></a></li>
-                  <li class=><a href="#"><img src="./img/correo.png" height="32px" width="32px" alt=""></a></li>
-                  <li class=><a href="#"><img src="./img/fon.png" height="32px" width="32px" alt=""></a></li>
+                  <li class=><a href="#"><img src="img/yout.png" height="32px" width="32px" alt=""></a></li>
+                  <li class=><a href="#"><img src="img/insta.png" height="32px" width="32px" alt=""></a></li>
+                  <li class=><a href="#"><img src="img/correo.png" height="32px" width="32px" alt=""></a></li>
+                  <li class=><a href="#"><img src="img/fon.png" height="32px" width="32px" alt=""></a></li>
                </ul>
              </div>
            </div>
@@ -65,16 +65,16 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="../BASES/directivos.php">Directivos</a>
+                    <a class="nav-link" href="directivos.php">Directivos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../BASES/contactos.php">Contactos</a>
+                    <a class="nav-link" href="contactos.php">Contactos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../BASES/anuncios.php">Anuncios</a>
+                    <a class="nav-link" href="anuncios.php">Anuncios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../BASES/Calificaciones.php">Calificaciones</a>
+                    <a class="nav-link" href="Calificaciones.php">Calificaciones</a>
                   </li>
                 </ul>
               </div>
@@ -89,10 +89,10 @@
                       <div class="card-header">CONTACTANOS</div>
                       <div class="card-body text-primary">
                       <h5 class="card-title text-white">Dirección</h5>
-                      <p class="card-text text-white"><img src="./img/casa.png" width="30">Avenida Utp Puebla</p>
-                      <p class="card-text text-white"><img src="./img/tel.png" width="15">Teléfono:(222 596 5687)</p>
-                      <p class="card-text text-white"><img src="./img/fax.png" width="30">Fax:  +00 222 483 8940</p>
-                      <p class="card-text text-white"><img src="./img/email.png" width="20">Email:contacto@tec.edu.mx</p>
+                      <p class="card-text text-white"><img src="img/casa.png" width="30">Avenida Utp Puebla</p>
+                      <p class="card-text text-white"><img src="img/tel.png" width="15">Teléfono:(222 596 5687)</p>
+                      <p class="card-text text-white"><img src="img/fax.png" width="30">Fax:  +00 222 483 8940</p>
+                      <p class="card-text text-white"><img src="img/email.png" width="20">Email:contacto@tec.edu.mx</p>
                     </div>
                 </div>
             
@@ -100,10 +100,10 @@
                     <div class="card-header">CONTACTANOS</div>
                     <div class="card-body text-primary">
                     <h5 class="card-title">Escuela</h5>
-                    <p class="card-text"><img src="./img/casa.png" width="30">Avenida Utp Puebla</p>
-                    <p class="card-text"><img src="./img/tel.png" width="15"> Teléfono:(222 586 5988)</p>
-                    <p class="card-text"><img src="./img/fax.png" width="30">Fax:  +00 222 583 1735</p>
-                    <p class="card-text"><img src="./img/email.png" width="20">Email:serve.tec@tec.edu.mx</p>
+                    <p class="card-text"><img src="img/casa.png" width="30">Avenida Utp Puebla</p>
+                    <p class="card-text"><img src="img/tel.png" width="15"> Teléfono:(222 586 5988)</p>
+                    <p class="card-text"><img src="img/fax.png" width="30">Fax:  +00 222 583 1735</p>
+                    <p class="card-text"><img src="img/email.png" width="20">Email:serve.tec@tec.edu.mx</p>
                     </div>
                 </div>
                 </div>
@@ -123,6 +123,6 @@
 
 
        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-       <script src="./js/bootstrap.min.js"></script> 
+       <script src="js/bootstrap.min.js"></script> 
 </body>
 </html>

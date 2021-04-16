@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <header>
@@ -24,20 +24,20 @@
              <a class="nav-link active" aria-current="page" href="#" >Inicio</a>
              </li>
                <li class="nav-item">
-                 <a class="nav-link" href="../BASES/academia.php">Academia</a>
+                 <a class="nav-link" href="academia.php">Academia</a>
                </li>
                <li class="nav-item">
-                <a class="nav-link" href="../BASES/academia.php">Escolar</a>
+                <a class="nav-link" href="academia.php">Escolar</a>
               </li>
              <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Plantel
                </a>
                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="..//BASES/directivos.html">Directivos</a></li>
-                 <li><a class="dropdown-item" href="../BASES/contactos.php">Contactos</a></li>
-                 <li><a class="dropdown-item " href="../BASES/anuncios.php">Anuncios</a></li>
-                 <li><a class="dropdown-item" href="../BASES/Calificaciones.php">Calificaciones</a></li>
+                  <li><a class="dropdown-item" href="directivos.html">Directivos</a></li>
+                 <li><a class="dropdown-item" href="contactos.php">Contactos</a></li>
+                 <li><a class="dropdown-item " href="anuncios.php">Anuncios</a></li>
+                 <li><a class="dropdown-item" href="Calificaciones.php">Calificaciones</a></li>
                </ul>
              </li>
            </ul>
@@ -51,11 +51,11 @@
         <h1 class="display-4 h1"> Escuela TEC</h1>
         <div>
           <ul class="navbar-nav ms-auto list-group-horizontal ">
-            <li class=><a href="https://es-la.facebook.com/"><img  src="./img/facebook.png" height="32px" width="32px" alt=""></a></li>
-            <li class=><a href="#"><img src="./img/yout.png" height="32px" width="32px" alt=""></a></li>
-            <li class=><a href="#"><img src="./img/insta.png" height="32px" width="32px" alt=""></a></li>
-            <li class=><a href="#"><img src="./img/correo.png" height="32px" width="32px" alt=""></a></li>
-            <li class=><a href="#"><img src="./img/fon.png" height="32px" width="32px" alt=""></a></li>
+            <li class=><a href="https://es-la.facebook.com/"><img  src="img/facebook.png" height="32px" width="32px" alt=""></a></li>
+            <li class=><a href="#"><img src="img/yout.png" height="32px" width="32px" alt=""></a></li>
+            <li class=><a href="#"><img src="img/insta.png" height="32px" width="32px" alt=""></a></li>
+            <li class=><a href="#"><img src="img/correo.png" height="32px" width="32px" alt=""></a></li>
+            <li class=><a href="#"><img src="img/fon.png" height="32px" width="32px" alt=""></a></li>
           </ul>
           
         </div>
@@ -78,19 +78,19 @@
                  </div>
                    <div class="carousel-inner ">
                      <div class="carousel-item active">
-                        <img src="./carrusel/img1.jpg" class="d-block w-100" alt="...">
+                        <img src="carrusel/img1.jpg" class="d-block w-100" alt="...">
                      </div>
                      <div class="carousel-item">
-                        <img src="./carrusel/img2.jpg" class="d-block w-100" alt="...">
+                        <img src="carrusel/img2.jpg" class="d-block w-100" alt="...">
                      </div>
                        <div class="carousel-item">
-                         <img src="./carrusel/img3.jpg" class="d-block w-100" alt="...">
+                         <img src="carrusel/img3.jpg" class="d-block w-100" alt="...">
                        </div>
                        <div class="carousel-item">
-                        <img src="./carrusel/img4.jpg" class="d-block w-100" alt="...">
+                        <img src="carrusel/img4.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="./carrusel/img5.jpg" class="d-block w-100" alt="...">
+                        <img src="carrusel/img5.jpg" class="d-block w-100" alt="...">
                       </div>
                  </div>
                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -132,8 +132,8 @@
                 <tr>
                   <td scope="row"><?php echo $row['comentario'] ?></td>
                   <td>
-                      <a href="eliminaprue.php?id=<?php echo $row['comentario']?>"><img src="./img/edit.png" alt="" width="30"/></a>
-                      <a href="borra.php?id=<?php echo $row['comentario']?>"><img src="./img/basura.png"  width="32"/></a>
+                      <a href="eliminaprue.php?id=<?php echo $row['comentario']?>"><img src="img/edit.png" alt="" width="30"/></a>
+                      <a href="borra.php?id=<?php echo $row['comentario']?>"><img src="img/basura.png"  width="32"/></a>
                   </td>
                 </tr>
                 <?php } ?>
@@ -173,7 +173,7 @@
     
   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script >
       
     </script>
