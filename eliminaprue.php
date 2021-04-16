@@ -1,25 +1,8 @@
 <?php
     include("conexion.php");
-
-    if (isset($_GET)) {
-        $id=$_GET['id'];
-        $query="SELECT * FROM anuncios WHERE id=$id";
-        $result=mysqli_query($conn,$query);
-
-        if (mysql_num_rows($result)==1) {
-            //puedes editar
-            $row=mysqli_fetch_array($result);
-            $comentario=$row['comentario'];
-        }
-    }
-
-    if (isset($_POST['update'])) {
-        $id=$_GET['id'];
-        $comentario=$_POST['comentario']
-
-        $query= "UPDATE anuncios set comentario='$comentario' WHERE id=$id";
-        mysqli_query($conn,$query);
-        header('Location:index.php');
+    if (isset($_REQUEST['datos'])) {
+        $id=$_REQUEST['id'];
+        $comentario=$_REQUEST['comentario'];
     }
 
 ?>
@@ -71,11 +54,11 @@
    <section>
        <h3  class="text-center">Actualiza tu anuncio</h3>
    </section>
-   <form action="eliminaprue.php?id=<?php echo $_GET['id'];?>" method="POST">
+   <form action="edita.php?id=<?php echo $id;?>&comentario=<?php echo $id;?>" method="POST">
         <h3 class="text-center">¡Comencemos!</h3> <br>
         <section class="text-center anun">
         <div>
-        <textarea rows="4" cols="40" name="comentario" placeholder="Escribe tu anuncio" value="<?php echo $comentario; ?>"></textarea>
+        <textarea rows="4" cols="40" name="comentario" placeholder="<?php echo $comentario ?>" value="<?php echo $comentario; ?>"></textarea>
         </div><br>
         <input  class="btn btn-warning" name="update" type="submit" value="Actualiza">
         </section>

@@ -132,7 +132,7 @@
                 <tr>
                   <td scope="row"><?php echo $row['comentario'] ?></td>
                   <td>
-                      <a href="eliminaprue.php?id=<?php echo $row['comentario']?>"><img src="img/edit.png" alt="" width="30"/></a>
+                      <a href="eliminaprue.php?id=<?php echo $row['ID']?>&comentario=<?php echo $row['comentario']?>&datos=1"><img src="img/edit.png" alt="" width="30"/></a>
                       <a href="borra.php?id=<?php echo $row['comentario']?>"><img src="img/basura.png"  width="32"/></a>
                   </td>
                 </tr>
