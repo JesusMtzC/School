@@ -32,7 +32,7 @@
                      Plantel
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="../BASES/directivos.html">Directivos</a></li>
+                    <li><a class="dropdown-item" href="../BASES/directivos.php">Directivos</a></li>
                     <li><a class="dropdown-item" href="../BASES/contactos.php">Contactos</a></li>
                     <li><a class="dropdown-item" href="../BASES/anuncios.php">Anuncios</a></li>
                     <li><a class="dropdown-item" href="../BASES/Calificaciones.php">Calificaciones</a></li>

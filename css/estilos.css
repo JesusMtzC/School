@@ -16,7 +16,7 @@
 
 /* editar post*/
 
-.main{
+#main{
     width: 960px;
 
 }
@@ -45,7 +45,7 @@
   padding-left: var(--bs-gutter-x, 14rem);
   margin-right: auto;
   margin-left: auto;
-  background-color: rgba(224, 220, 220, 0.993);
+  background-color: rgba(177, 174, 174, 0.993);
 }
 
 .post-contenido{
@@ -62,7 +62,7 @@
 
 .anun{
     width: 400px;
-    background: #24303c;
+    background: #387dc2;
     padding: 50px;
     margin: auto;
     margin-top: 15px;
@@ -93,9 +93,86 @@ footer{
     text-align: center;
 }
 
-.aside{
-    display: inline-block;
-    width: 300px;
-    min-height: 400px;
+.articulo1{
+    width: 60%;
+    
+    padding: 10px;
+    float: left;
+    text-align: justify;
+}
+.articulo2{
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(144, 243, 114);
     float: right;
+    height: auto;
+}
+
+.cenn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.prime{
+    background-color: rgb(69, 189, 119);
+}
+
+.forma{
+    margin: 0 auto;
+    width: 330px;
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.fiel{
+    margin-top: 10px;
+    width: 280px;
+    
+}
+.fielfocus{
+    margin-top: 10px;
+    width: 150px;
+}
+.tamañobtn{
+    width: 280px;
+}
+
+.espacio{
+    border-spacing: 4px;
+
+}
+
+.dosw{
+    text-align: justify;
+}
+
+.boxbox{
+    width: 100%;
+    height: 110vh;
+    position:absolute;
+    top: 30px;
+    background: rgba(0, 0, 0, 0.8);
+    display:inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-close{
+    width: 70px;
+    height: 70px;
+    background: #b30b0b;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }

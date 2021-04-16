@@ -1,3 +1,5 @@
+<?php include("conexion.php");?>
+<?php include("guardar.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +63,7 @@
    </section>
    <section class=" container-sm">
      <div class="row">
-       <section class=" posts col-md-9">
+       <section class="  col-md-9">
           <article class="post clearfix"></article>
           <h2 class="post-title h2">Escuela tecnica num 22</h2>
           
@@ -101,60 +103,53 @@
                  </button>
                </div><br>
 
-            <div class="position-relative">
-              <p >
+            <div class="dosw">
+              <p>
                 Los términos educación superior, enseñanza superior, estudios superiores, educación profesional y educación terciaria aluden a la última etapa del proceso de aprendizaje académico, es decir, a todas las trayectorias formativas post-secundarias que cada país contempla en su sistema. Se imparte en las universidades, en las academias superiores o en las instituciones de formación profesional superior, entre otros.
   
                 Es un paso posterior a la educación secundaria, y es común, aunque no imprescindible, que exista una selección de acceso a las instituciones de enseñanza superior basada en el rendimiento escolar durante la etapa secundaria o en un examen de acceso a la universidad. Según el país, este examen puede ser de ámbito estatal, local o propio de cada universidad.
               </p>
+              <br><br>
             </div>
         </section>
 
         <aside class="col-md-3 d-sm-none d-md-block ">
           <h3>Anuncios</h3>
-          <div>
-           <tbody>
+          <div >
+           
             <table class="table table-warning table-striped">
               <thead>
                 <tr>
                   <th scope="col fs-5">Anuncios importantes</th>
                   <th scope="col">Edicion</th>
+                <tr>
               </thead>
               <tbody>
+              <?php 
+                $query = "SELECT * from anuncios";
+                $result_tasks =mysqli_query($conn,$query); 
+                while($row = mysqli_fetch_array($result_tasks)) { ?>
                 <tr>
-                  <th scope="row">Anuncio 1</th>
-                  <th scope="row">
-                    <a href=""><img src="./img/edit.png" alt="" width="30"></a>
-                    <a href=""><img src="./img/basura.png" alt="" width="35"></a>
-                  </th>
+                  <td scope="row"><?php echo $row['comentario'] ?></td>
+                  <td>
+                      <a href="eliminaprue.php?id=<?php echo $row['comentario']?>"><img src="./img/edit.png" alt="" width="30"/></a>
+                      <a href="borra.php?id=<?php echo $row['comentario']?>"><img src="./img/basura.png"  width="32"/></a>
+                  </td>
                 </tr>
-                <tr>
-                  <th scope="row">Anuncio 2</th>
-                  <th scope="row">
-                    <a href=""><img src="./img/edit.png" alt="" width="30"></a>
-                    <a href=""><img src="./img/basura.png" alt="" width="35"></a>
-                  </th>
-                </tr>
-                <tr>
-                  <th scope="row">Anuncio 3</th>
-                  <th scope="row">
-                    <a href=""><img src="./img/edit.png" alt="" width="30"></a>
-                    <a href=""><img src="./img/basura.png" alt="" width="35"></a>
-                  </th>
-                </tr>
+                <?php } ?>
               </tbody>
             </table>
-           </tbody>
+           
           </div>
 
           <div class="list-group">
             <a href="#" class="list-group-item active list-group-item-action disabled" aria-current="page">
               Enlaces de clases
             </a>
-            <a href="#" class="list-group-item list-group-item-action ">Primero "A"</a>
-            <a href="#" class="list-group-item list-group-item-action">Primero "B"</a>
+            <a href="https://meet.google.com/ovi-csxi-xcc" class="list-group-item list-group-item-action ">Primero "A"</a>
+            <a href="https://meet.google.com/ovi-csxi-xcc" class="list-group-item list-group-item-action">Primero "B"</a>
             <a href="#" class="list-group-item list-group-item-action">Segundo "A"</a>
-            <a href="#" class="list-group-item list-group-item-action">segundo "B"</a>
+            <a href="#" class="list-group-item list-group-item-action">Segundo "B"</a>
             <a href="#" class="list-group-item list-group-item-action">Tercero "A"</a>
             <a href="#" class="list-group-item list-group-item-action">Tercero "B"</a>
           </div>         
@@ -175,6 +170,7 @@
         Email:
     </footer>
     </div>
+    
   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>

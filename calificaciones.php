@@ -93,47 +93,24 @@
                   <tr>
                     <th scope="col">#</th>
                     <th scope="col">Alumno</th>
-                    <th scope="col">Matematicas</th>
+                    <th scope="col">Apellidos</th>
                     <th scope="col">Español</th>
+                    <th scope="col">Matematicas</th>
                     <th scope="col">Fisica</th>
                     <th scope="col">Historia</th>
                     <th scope="col">Ingles</th>
                     <th scope="col">Social</th>
                     <th scope="col">Deportes</th>
+                    <th>Acciones</th>
                   </tr>
                 </thead>
                 <tbody>
+                  <?php
+                  $query= "SELECT * FROM regsitro1";
+                  $reslt_tak=ms
+                  ?>
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                  <
                   </tr>
                 </tbody>
               </table>

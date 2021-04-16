@@ -85,19 +85,25 @@
         <div class="d-flex p-4 bd-highlight justify-content-evenly">
             <section>
                 <div class="card-group text-center ">
-                    <div class="card border-primary mb-3" style="max-width: 18rem;">
-                        <div class="card-header">CONTACTANOS</div>
-                        <div class="card-body text-primary">
-                        <h5 class="card-title">Primary card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                      <div class="card-header">CONTACTANOS</div>
+                      <div class="card-body text-primary">
+                      <h5 class="card-title text-white">Dirección</h5>
+                      <p class="card-text text-white"><img src="./img/casa.png" width="30">Avenida Utp Puebla</p>
+                      <p class="card-text text-white"><img src="./img/tel.png" width="15">Teléfono:(222 596 5687)</p>
+                      <p class="card-text text-white"><img src="./img/fax.png" width="30">Fax:  +00 222 483 8940</p>
+                      <p class="card-text text-white"><img src="./img/email.png" width="20">Email:contacto@tec.edu.mx</p>
                     </div>
                 </div>
             
                 <div class="card border-primary mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Header</div>
+                    <div class="card-header">CONTACTANOS</div>
                     <div class="card-body text-primary">
-                    <h5 class="card-title">Primary card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Escuela</h5>
+                    <p class="card-text"><img src="./img/casa.png" width="30">Avenida Utp Puebla</p>
+                    <p class="card-text"><img src="./img/tel.png" width="15"> Teléfono:(222 586 5988)</p>
+                    <p class="card-text"><img src="./img/fax.png" width="30">Fax:  +00 222 583 1735</p>
+                    <p class="card-text"><img src="./img/email.png" width="20">Email:serve.tec@tec.edu.mx</p>
                     </div>
                 </div>
                 </div>

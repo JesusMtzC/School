@@ -1,3 +1,4 @@
+<?php include("conexion.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +33,7 @@
                      Plantel
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="../BASES/directivos.html">Directivos</a></li>
+                    <li><a class="dropdown-item" href="../BASES/directivos.php">Directivos</a></li>
                     <li><a class="dropdown-item" href="../BASES/contactos.php">Contactos</a></li>
                     <li><a class="dropdown-item" href="../BASES/anuncios.php">Anuncios</a></li>
                     <li><a class="dropdown-item" href="../BASES/Calificaciones.php">Calificaciones</a></li>
@@ -90,12 +91,13 @@
                    </article>
                </section>
               <div>
-                <form action="">
+                <form action="guardar.php" method="POST">
                    <h3 class="text-center">¡Comencemos!</h3> <br>
                   <section class="text-center anun">
-                    <label for="anuncio">Ingrese su Comentario:</label><br><br>
-                    <input class="lab" type="text" id="anuncio" name="anuncio"  maxlength="20" size="40" placeholder="Anuncio"><br><br>
-                    <input class="btn btn-primary"  type="submit" name="" value="Enviar">
+                    <div>
+                    <textarea name="comentario" rows="4" cols="40" placeholder="Escribe tu anuncio"></textarea>
+                    </div>
+                    <input  class="btn btn-success" type="submit" name="save-taks" value="Enviar">
                   </section>
                 </form>
               </div>
